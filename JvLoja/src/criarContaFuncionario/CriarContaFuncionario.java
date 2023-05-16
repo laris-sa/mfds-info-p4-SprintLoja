@@ -1,14 +1,12 @@
-package criarConta;
+package criarContaFuncionario;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
-
-public class CriarConta {
-   public static void criarContaCliente() {
+public class CriarContaFuncionario {
+	public static void criarContaFuncionario() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Criação de Conta Usuário");
+        System.out.println("Criação de Conta Funcionário");
 
         System.out.print("CPF: ");
         String cpf = scanner.nextLine();
@@ -74,6 +72,5 @@ class Conta {
     public String getEmail() {
         return email;
     }
+
 }
-
-
